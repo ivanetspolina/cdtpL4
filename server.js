@@ -20,9 +20,9 @@ app.all('/', (req, res) => {
     .send(`<!doctype html>
 <html>
   <body style="font-family: Arial, sans-serif; text-align: center; padding-top: 40px;>
-    <h1 style="font-size: 2.5rem; color: #2c3e50;>Hi, ${name}!</h1>
-    <p style="font-size: 1.1rem; color: #555555;">runtime: nodejs</p>
-    <p style="font-size: 1.1rem; color: #555555;">region: ${region}</p>
+    <h1 style="font-size: 4rem; color: #2c3e50;>Hi, ${name}!</h1>
+    <p style="font-size: 1.1rem; color: #1C8139;">runtime: nodejs</p>
+    <p style="font-size: 1.1rem; color: #7E57C2;">region: ${region}</p>
   </body>
 </html>`);
 });
