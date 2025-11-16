@@ -19,8 +19,8 @@ app.all('/', (req, res) => {
     .type('text/html; charset=utf-8')
     .send(`<!doctype html>
 <html>
-  <body style="font-family: "Times New Roman", sans-serif; text-align: center; padding-top: 40px;>
-    <h1 style="font-size: 36px; color: #2c3e50; font-weight: bold;>Hi, ${name}!</h1>
+  <body style="font-family: Times, Arial, sans-serif; text-align: center; padding-top: 40px;">
+    <h1 style="font-size: 36px; color: #2c3e50; font-weight: bold;">Hi, ${name}!</h1>
     <p style="font-size: 24px; color: #1C8139;">runtime: nodejs</p>
     <p style="font-size: 24px; color: #7E57C2;">region: ${region}</p>
   </body>
